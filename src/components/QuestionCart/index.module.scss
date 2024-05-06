@@ -1,0 +1,26 @@
+.container {
+  width: 100%;
+  height: 200px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background: rgb(42, 46, 52);
+  background: linear-gradient(
+    36deg,
+    rgba(42, 46, 52, 1) 0%,
+    rgba(71, 96, 80, 1) 35%,
+    rgba(42, 46, 52, 1) 100%
+  );
+
+  border-radius: 15px;
+
+  .text{
+    text-align: center;
+    font-weight: 500;
+    color: white;
+    font-weight: 600;
+  }
+}
